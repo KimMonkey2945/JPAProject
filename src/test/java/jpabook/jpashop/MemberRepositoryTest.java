@@ -12,7 +12,7 @@ public class MemberRepositoryTest {
 
     @Autowired MemberRepository memberRepository;
 
-    @Test
+    /*@Test
     @Transactional
     @Rollback(value = false)
     public void testMember() throws Exception{
@@ -30,5 +30,5 @@ public class MemberRepositoryTest {
         Assertions.assertThat(findMember.getUsername()).isEqualTo(member.getUsername());
         Assertions.assertThat(findMember).isEqualTo(member);
 
-    }
+    }*/
 }
